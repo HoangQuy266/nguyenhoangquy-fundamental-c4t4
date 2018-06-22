@@ -1,0 +1,8 @@
+1.
+-How to check a variable's types? 
++ String has ("") (str)
++ Integer (int)
+-In what cases, you will get SyntaxError ..? Can you give 3 different examples of invalid names?
++ Name start with number
++ Name has special character
++ No quotation
