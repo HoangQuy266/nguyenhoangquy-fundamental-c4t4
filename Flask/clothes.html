@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Clothes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    {%for clothes in clothess %}
+    <h1>{{clothes.name}}</h1>
+        <h1>{{clothes.brand}}</h1>
+        <h3>{{clothes.producer}}</h3>
+        <img src="{{clothes.thumbnail_url}}" 
+        alt="https://cdn.shopify.com/s/files/1/1003/3354/files/fear_of_god.png?3706298549684185212">
+    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSol3YGh3ufCQIM_TxKLpHiQLFYNT8do4WSdt9WHvsZchxGwWO3g"></a>
+    {% endfor %}
+</body>
+</html>
